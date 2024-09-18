@@ -1,0 +1,115 @@
+body {
+    background-image: url(../img/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button-container {
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 40px;
+}
+
+.boton-login {
+    margin-left: 45%;
+    border-radius: 8px;
+    background-color: deepskyblue;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: white;
+    float: left;
+    margin-right: 20px;
+
+}
+
+.form-check {
+    border: 4px;
+    border-radius: 8px;
+    border-color: black;
+    border-style: solid;
+    padding-bottom: 50px;
+    background-color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+}
+
+.cabecera {
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+}
+
+header {
+    background-color: black;
+    padding: 10px 0;
+
+}
+
+
+.navegacion {
+    text-align: right;
+    align-items: center;
+    padding: auto;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.lista li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.lista li:last-child {
+    color: blue;
+}
+
+.lista li:first-child {
+    margin-left: 0;
+}
+
+.lista li a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.lista li h3 {
+    color: yellow;
+}
+
+.lista li h4 {
+    color: white;
+}
+
+.lista li a:hover {
+    color: greenyellow;
+}
+
+
+#msgError {
+    color: red;
+    font-weight: bold;
+}
+
+#registro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
